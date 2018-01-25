@@ -94,29 +94,21 @@ namespace PracticeProblems
 
             //Homework Jan 25th
             
-            int[] jlist = new int[25];
+            //int[] jlist = new int[25];
 
-            for (int i = 0; i < jlist.Length; i++)
-            {
-                Console.WriteLine("Enter numbers") ;
-                jlist[i] = int.Parse(Console.ReadLine());
-            }
-            for (int i = 0; i < jlist.Length; i++)
-            {
-                if ((i % 2) != 0)
-                {
-                    Console.Write(jlist[i] + ",");
-                }
+            //for (int i = 0; i < jlist.Length; i++)
+            //{
+            //    Console.WriteLine("Enter numbers") ;
+            //    jlist[i] = int.Parse(Console.ReadLine());
+            //}
+            //for (int i = 0; i < jlist.Length; i++)
+            //{
+            //    if ((i % 2) != 0)
+            //    {
+            //        Console.Write(jlist[i] + ",");
+            //    }
+            //}
 
-
-
-
-
-
-
-
-
-            }
         }
     }
 }
